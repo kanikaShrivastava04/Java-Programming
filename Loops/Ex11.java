@@ -20,8 +20,6 @@ public class Ex11 {
         else{
              for(int i=2;i<=n;i++){
            next = prev+curr;
-            
-            
             prev = curr; 
             curr = next; 
             
